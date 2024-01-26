@@ -1,0 +1,247 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.main-section{
+  position: relative;
+}
+.main-section>.container{
+  width: 1920px; height: 1080px;
+  margin: 0 auto;
+}
+.main-section>.container>.back-bg{
+  width: 100%; height: 100%;
+  background-image: url('page-1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@keyframes moving {
+	0% {
+		top:372px;
+	}
+	to {
+		top:382px;
+	} 
+}
+.main-section>.container>.mockup-box{
+  width: 608px; height: 620px;
+  position: absolute;
+  top:372px; left: 50%;
+  transform: translateX(-50%);
+  animation: moving 1s ease-in Infinite Alternate;
+}
+.main-section>.container>.mockup-box>a{
+  width: 100%; height: 100%;
+  display: block;
+}
+.main-section>.container>.mockup-box>a>img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.page2-section>.container{
+  width: 1920px; 
+  margin: 0 auto;
+  padding: 100px 6px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.page2-section>.container>.page2-content-box{
+  width: 1224px; height: 683px;
+}
+.page2-section>.container>.page2-content-box>img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.page3-section>.container{
+  width: 1920px; 
+  margin: 0 auto;
+  padding: 100px 195px 120px 195px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1174D9;
+}
+.page3-section>.container>.page3-content-box{
+  width: 1530px; height: 757px;
+}
+.page3-section>.container>.page3-content-box>img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.page4-section>.container{
+  width: 1920px; height: 1157px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.page4-section>.container>.page4-content-box{
+  width: 1532px; height: 937px;
+}
+.page4-section>.container>.page4-content-box>img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.page5-section{
+  position: relative;
+}
+.page5-section>.container{
+  width: 1920px; height:662px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page5-section>.container>.back-bg{
+  width: 100%; height: 100%;
+  background-image: url('page-5.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page5-section>.container>.page5-content-box{
+  width: 968px; height: 168px;
+  position: absolute;
+  top: 240px; left: 50%;
+  transform: translateX(-50%);
+}
+.page5-section>.container>.page5-content-box>img{
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.page6-section>.container{
+  width: 1920px; height:1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page6-section>.container>.back-bg{
+  width: 100%; height: 100%;
+  background-image: url('page-6.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page7-section>.container{
+  width: 1920px; height:906px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page7-section>.container>.back-bg{
+  width: 100%; height: 100%;
+  background-image: url('page-6-5.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page8-section>.container{
+  width: 1920px; height:854px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page8-section>.container>.back-bg{
+  width: 100%; height: 100%;
+  background-image: url('page-7.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page9-section>.container{
+  width: 1920px; height:1796px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page9-section>.container>.back-bg{
+  width: 100%; height: 100%;
+  background-image: url('page-8.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page10-section>.container{
+  width: 1920px; height:4189px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page10-section>.container>.back-bg{
+  width: 100%; height: 100%;
+  background-image: url('page-9.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page11-section>.container{
+  width: 1920px; height:1268px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page11-section>.container>.back-bg{
+  width: 100%; height: 100%;
+  background-image: url('page-11.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page12-section>.container{
+  width: 1920px; height:2059px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page12-section>.container>.back-bg{
+  width: 100%; height: 100%;
+  background-image: url('page-12.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page13-section>.container{
+  width: 1920px; height:1573px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page13-section>.container>.back-bg{
+  width: 100%; height: 100%;
+  background-image: url('page-13.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page14-section>.container{
+  width: 1920px; height:1976px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page14-section>.container>.back-bg{
+  width: 100%; height: 100%;
+  background-image: url('page-14.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
